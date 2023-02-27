@@ -10,13 +10,12 @@ body{
 }
 
 nav {
-    text-align: center;
     background-color: #ffd700;
     padding: 10px;
     height: 50px;
     border-radius: 10px;
     position:fixed;
-    margin-left: 9cm
+    left: 25%;
 }
 nav a{
     color: black;
@@ -26,7 +25,7 @@ nav a{
     padding: 15px;
 }
 nav a:hover{
-    color: #fff;
+    color: #f4f4f4;
     transition: all 0.2s ease-in-out;
 }
 nav a:active{
@@ -83,7 +82,7 @@ header{
     display: table;
 }
 .column input[type="submit"]{
-    margin-left: 4.5cm;
+    margin-left: 4cm;
     background-color: #ffd700;
     color: #fff;
     font-size: 22px;
@@ -94,6 +93,9 @@ header{
 }
 .column input[type="submit"]:hover{
     background-color: blue;
+}
+fieldset{
+    border: #f4f4f4;
 }
 fieldset legend{
     font-size: 32px;
@@ -111,4 +113,49 @@ fieldset legend{
     margin-left: 4cm;
     font-size: 24px;
     font-weight: bold;
+}
+
+footer{
+    background-color: #6d6a6a;
+    height: 8cm;
+}
+.links{
+    text-align: center;
+    color: #f4f4f4;
+    font-size: 22px;
+}
+.links a{
+    color: #f4f4f4;
+    text-decoration: none;
+}
+.links a:hover{
+color: #ffd700;
+}
+.copy{
+    font-size: 22px;
+    text-align: center;
+}
+.media{
+    color: #ffffff;
+    font-size: 28px;
+    padding: 5px;
+    text-align: center;    
+}
+.media a{
+    color:#ffffff;
+    text-decoration: none;
+}
+.media a:hover{
+    color:#ffd700;
+    text-decoration: none;
+}
+.text p,h1{
+    padding: 1cm;
+}
+
+.row,footer{
+padding: 1.5cm;
+}
+.media, .copy{
+    padding: auto;
 }
