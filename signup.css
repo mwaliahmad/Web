@@ -10,12 +10,13 @@ body{
 }
 
 nav {
+    display: flex;
+    flex-direction: row;
+    left: 25%;
     background-color: #ffd700;
-    padding: 10px;
     height: 50px;
     border-radius: 10px;
     position:fixed;
-    left: 25%;
 }
 nav a{
     color: black;
@@ -31,6 +32,7 @@ nav a:hover{
 nav a:active{
     color: tomato;
 }
+
 .whole{
     background-color: #fff;
     padding: 10px;
